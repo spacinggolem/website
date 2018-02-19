@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta lang="en">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homepage</title>
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="header-inner">
+      <nav id="navbar">
+        <img id='logo' src="img/Logo.png" alt="Logo">
+
+        <ul>
+          <li>
+            <a class="current" href="javascript:void(0)">Home</a>
+          </li>
+
+          <li>
+            <a href="news.html">News</a>
+          </li>
+
+          <li>
+            <a href="Gameplay.html">Gameplay</a>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropbtn" href="javascript:void(0)">More</a>
+
+            <div class="dropdown-content">
+              <a href="Socialmedia.html">Social Media</a>
+              <a href="teaminfo.html">Team info</a>
+              <a href="Contact.html">Contact</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr>
+  </header>
+
+  <div class='headeroverlay'>
+  </div>
+  <video autoplay id="headervideo" loop>
+    <source src="vids/headerbackground.mp4" type="video/mp4">
+  </video>
+
+  <div class='headercontent'>
+    <p>Welcome to my website! I'm a 15 years old European professional Rocket League player, I played for several teams including:
+      team Irish, Against All Odds and NRG. I used to be known as Squishy but I changed my name. Currently, I'm a member
+      of Memento Mori.
+    </p>
+    <div class='buttons'>
+      <button id="playbtn" onclick="Playbutton()">Pause</button>
+      <br>
+      <button id="mutebtn" onclick="Mutebutton()">Mute</button>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <hr>
+
+    <p>© 2018 WALTER SAJTOS ALL RIGHTS RESERVED</p>
+  </footer>
+  <script src="scripts/homepage.js">
+  </script>
+</body>
+
+</html>

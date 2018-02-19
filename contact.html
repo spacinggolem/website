@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Contact</title>
+	<link href="styles/main.css" rel="stylesheet">
+	<link href="styles/Contact.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div id="header-inner">
+			<nav>
+				<img alt="Logo" id='logo' src="img/Logo.png">
+
+				<ul>
+					<li>
+						<a href="index.htm">Home</a>
+					</li>
+
+
+					<li>
+						<a href="news.html">News</a>
+					</li>
+
+
+					<li>
+						<a href="Gameplay.html">Gameplay</a>
+					</li>
+
+
+					<li class="dropdown current">
+						<a class="dropbtn current" href="javascript:void(0)">More</a>
+
+						<div class="dropdown-content">
+							<a href="Socialmedia.html">Social Media</a>
+							<a href="#">Team info</a>
+							<a class="current" href="Contact.html">Contact</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<hr>
+	</header>
+	<br>
+	<br>
+
+
+	<h1>Contact:</h1>
+
+	<hr>
+
+
+	<div class="container">
+		<form action="mailto:waltersajtos@outlook.com" method="post" enctype="text/plain">
+			<label for="first_name">First Name:&nbsp;</label>
+			<input id="first_name" name="first_name" placeholder="Your name.." type="text">
+			<br>
+
+			<label for="last_name">Last Name:&nbsp;</label>
+			<input id="last_name" name="last_name" placeholder="Your last name.." type="text">
+			<br>
+
+			<label for="email">Mail adress:</label>
+			<input id="email" name="email" placeholder="Your e-mailadress.." type="text">
+			<br>
+
+			<label for="Reason">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reason:&nbsp;</label>
+			<select id="Reason" name="Reason">
+
+				<option value="Affiliation"> Affiliation </option>
+
+				<option value="Sponsorship">Sponsorship </option>
+
+				<option value="Question">Question </option>
+
+				<option value="Different"> None of the above </option>
+
+			</select>
+			<br>
+
+			<label for="message" id="message">&nbsp;&nbsp;&nbsp;Question:&nbsp;</label>
+			<textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+			<input id='submit' type="submit" value="Send">
+		</form>
+	</div>
+	<hr>
+	<script src='Scripts/contact.js'>
+	</script>
+
+	<footer>
+		<hr>
+
+
+		<p>© 2018 WALTER SAJTOS ALL RIGHTS RESERVED</p>
+	</footer>
+</body>
+
+</html>

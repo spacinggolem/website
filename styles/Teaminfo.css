@@ -1,0 +1,54 @@
+p {
+	color: white;
+	font-size: 150%;
+	margin: 1%;
+	max-width: 50%
+}
+h1 {
+	margin: 1%;
+}
+#teammedia {
+	max-width: 50%
+}
+#teaminfo img {
+	margin-top: 11%;
+	right: 0;
+	width: 50%;
+	height: 65%;
+	float: right;
+}
+#socialmedia {
+	text-align: center;
+	font-size: 120%;
+	color: white;
+	padding: 10px;
+}
+#twitch i {
+	color: purple;
+}
+
+.socialmedia {
+	text-align: center;
+	width: 25%;
+	float: left;
+	padding-top: 5%;
+	color: white;
+}
+.socialmedia i {
+	font-size: 1200%;
+}
+
+#twitch i {
+	color: purple;
+}
+#twitter i {
+	color: #6699ff;
+}
+#discord i {
+	color: #7289DA;
+}
+
+/*====================MEDIA======================*/
+@media screen and (max-height: 768px) {
+    
+}

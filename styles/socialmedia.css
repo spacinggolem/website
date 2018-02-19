@@ -1,0 +1,40 @@
+#socialmedia {
+	text-align: center;
+	font-size: 120%;
+	color: white;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+
+.socialmedia {
+	text-align: center;
+	width: 50%;
+	float: left;
+	padding-top: 5%;
+	color: white;
+}
+
+.socialmedia i {
+	font-size: 1200%;
+}
+
+#youtube i {
+	color: red;
+}
+
+#twitch i {
+	color: purple;
+}
+
+#twitter i {
+	color: #6699ff;
+}
+
+#discord i {
+	color: #7289DA;
+}

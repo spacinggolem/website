@@ -1,0 +1,87 @@
+/*Homepage header*/
+
+#headervideo {
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 95%;
+    z-index: -2;
+    -webkit-filter: blur(2px);
+}
+
+.headeroverlay {
+    align-items: center;
+    position: fixed;
+    height: 95%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.headercontent {
+    align-items: center;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.headercontent p {
+    position: relative;
+    text-align: center;
+    right: 0;
+    left: 0;
+    word-spacing: 3px;
+    max-width: 50%;
+    font-size: 125%;
+    margin: auto;
+    float: none;
+}
+
+.buttons {
+    float: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 77%;
+}
+
+#playbtn {
+    border: 2px solid #cfbd8b;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    background: #990000;
+    color: #cfbd8b;
+    cursor: pointer;
+}
+
+#playbtn:hover {
+    background: #cfbd8b;
+    color: #990000;
+}
+
+#mutebtn {
+    border: 2px solid #cfbd8b;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    background: #990000;
+    color: #cfbd8b;
+    cursor: pointer;
+}
+
+#mutebtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+form {
+    background-color: #262626;
+}
+
+input {
+    background-color: #b3b3b3;
+}
+
+/*Contact form*/
+
+input[type=text],
+select,
+textarea {
+    color: black;
+    width: 50%;
+    background-color: #fff;
+    padding: 12px;
+    border: 2px solid #cfbd8b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 52%;
+}
+
+input[type=submit] {
+    background-color: #990000;
+    color: #cfbd8b;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #660000;
+}
+
+textarea[name=question] {
+    width: 50%;
+    height: 200px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #262626;
+    padding: 20px;
+    color: white;
+}
+
+.container label {
+    vertical-align: top;
+}
+
+h1 {
+    margin: 10px;
+}

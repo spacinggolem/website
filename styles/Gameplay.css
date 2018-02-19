@@ -1,0 +1,61 @@
+table{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+table, th, td {
+	border: 1px solid #cfbd8b;
+	border-spacing: 0;
+	font-weight: bold;
+}
+
+tr {
+	background-color: #1a1a1a;
+	display: table-row;
+}
+th {
+	background-color: #990000;
+	padding: 15px;
+}
+td {
+	padding: 15px;
+	color: white;
+}
+caption {
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 10px;
+}
+td img {
+	width: 150px;
+	height: 150px;
+}
+.Ranks {
+	position: fixed;
+	float: right;
+
+}
+#see_more {
+	float: right;
+	margin-bottom: 40%;
+	margin-right: 5%;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+}
+#see_more a {
+	color: #990000;
+	text-decoration: underline;
+	text-decoration-color: #cfbd8b;
+	font-weight: bold;
+	font-size: 120%;
+}
+#see_more a:hover {
+	color: #cfbd8b;
+	text-decoration-color: #990000;
+}
+#see_more h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
