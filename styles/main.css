@@ -65,7 +65,6 @@ li a,
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 li a:hover,
@@ -104,19 +103,19 @@ li.dropdown {
     display: block;
 }
 
-
 /*Dropdown end*/
 
 .current {
     text-decoration: underline;
     font-weight: bold;
 }
+
 /*Navbar end*/
 
 /*footer start*/
+
 footer {
     position: fixed;
-    margin-top: auto;
     bottom: 0;
     background: black;
     width: 100%;
@@ -130,4 +129,5 @@ footer p {
     margin-top: 10px;
     font-size: 110%;
 }
+
 /*footer end*/

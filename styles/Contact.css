@@ -20,6 +20,7 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    transition: width 0.4s ease-in-out;
     -webkit-transition: width 0.4s ease-in-out;
 }
 

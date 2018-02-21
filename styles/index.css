@@ -8,6 +8,7 @@
     min-width: 100%;
     min-height: 95%;
     z-index: -2;
+    filter: blur(2px);
     -webkit-filter: blur(2px);
 }
 
@@ -45,7 +46,7 @@
 }
 
 .buttons {
-    float: right;
+    margin-top: .3%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -78,8 +79,8 @@
 }
 
 #mutebtn:hover {
-    background: #ddd;
-    color: black;
+    background: #cfbd8b;
+    color: #990000;
 }
 
 h1 {

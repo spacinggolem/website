@@ -1,30 +1,30 @@
+var video = document.getElementById("headervideo");
 
-let video = document.getElementById( "headervideo" );
+var playbtn = document.getElementById("playbtn");
 
-let btn = document.getElementById( "playbtn" );
+var mutebtn = document.getElementById("mutebtn");
 
-let mutebtn = document.getElementById( "mutebtn" );
-
-const vid = document.getElementById( "headervideo" );
+var vid = document.getElementById("headervideo");
 vid.volume = 0.05;
 
+playbtn.addEventListener("click", Playbutton);
+mutebtn.addEventListener("click", Mutebutton);
+
 function Playbutton() {
-    if (video.paused ) {
+    if (video.paused) {
         video.play();
-        btn.innerHTML = "Pause";
-    }
-    else {
+        playbtn.innerHTML = "Pause";
+    } else {
         video.pause();
-        btn.innerHTML = "Play";
+        playbtn.innerHTML = "Play";
     }
 }
 
 function Mutebutton() {
-    if (video.muted === true ) {
+    if (video.muted === true) {
         video.muted = false;
         mutebtn.innerHTML = "Mute";
-    }
-    else {
+    } else {
         video.muted = true;
         mutebtn.innerHTML = "Unmute";
     }
