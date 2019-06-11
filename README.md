@@ -1,2 +1,3 @@
 # website
-School project
+
+This was one of my school projects in middle school.
